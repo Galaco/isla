@@ -1,0 +1,10 @@
+[
+	{
+		"slug": "example-project",
+		"name": "Example Project",
+		"image": "",
+		"url": "/project/example-project",
+		"date": "Apr 2019",
+		"tags": ["example", "project"]
+	}
+]

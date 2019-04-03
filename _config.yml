@@ -1,0 +1,56 @@
+title: Isla
+description: Just another dev.
+author: MY_NAME
+github: https://github.com/galaco
+about: Let's demo Isla!
+disqus_shortname: disqus_name
+google_analytics: UA-XXXXXXXXX-X
+avatar_url: https://my_avatar.png
+
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    - icon: fa-stack-exchange
+      link: "https://stackoverflow.com/users/<ADD_ME>"
+    - icon: fa-github
+      link: "https://github.com/<ADD_ME>"
+
+share:
+  twitter_username: <SET_ME>
+  fb_appid: <SET_ME>
+
+urls:
+    - text: About Me
+      url: /about/
+    - text: My Projects
+      url: /projects/
+    - text: XML Feed
+      url: /feed.xml
+
+url: "https://MY_BLOG_URL"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+cdnurl: "https://MY_CDN_URL"
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
+
+sass:
+  sass_dir: _sass
+  style: compressed
